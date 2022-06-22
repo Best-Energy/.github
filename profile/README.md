@@ -1,5 +1,5 @@
 Best Energy
-BlockChain Praktikum Main Repository
+BlockChain Based Energy Sharing
 
 Other resources:
 
