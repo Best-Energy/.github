@@ -17,6 +17,8 @@ Some additional requirements in addition to the ones mentioned below:
  - npm version: 8.5.5
  - yarn version: 1.22.19
 
+## Part-1: Blockchain
+
 #### Install Ganache
 - Download and install Ganache-UI which is a GUI based tool in order to test and simulate Ethereum blockchains locally and we are using it for the purpose of development. You can download it from [here](https://trufflesuite.com/ganache/).
 
@@ -42,10 +44,23 @@ We now want to deploy our smart contract onto this Ganache blockchain that we se
 **Note**: By default Ganache listens on port 7545 of the sytem and it should automtically be found by Truffle. If this is not the case, you might need to uncomment and modify the ***development*** attribute in the truffle-config.js file and set the correct port and host there.
 ### How to run complete application?
 
+## Part-2: Application
+
+To have seamless experience of trading the energy, we store user information in an onpremise db. Having signing process at every transaction like traditional DApp would not prove to be efficient. Thus, we came up with a hybrid approach.
 
 #### Install MongoDB
--------- Pranav --------
 
+We recommend using brew for this installation `brew install mongodb-community@4.4`
+
+Start the services by `brew services start mongodb-community@4.4`
+To view the data stored you can install the mongodb compass - mongodb UI utility.
+
+### Frontend
+
+Clone the repo and do `npm install`.
+
+Start the webserver using `yarn start` or `npm start`.
+Checkout the repo read me for detailed info.
 
 #### Other project related resources:
 Project Board:  https://github.com/Best-Energy/best-energy/projects/1
