@@ -29,9 +29,6 @@ Some additional requirements in addition to the ones mentioned below:
 #### Install Truffle
 Install Truffle on your system globally. You can refer to the instructions for installation [here](https://trufflesuite.com/docs/truffle/getting-started/installation/).
 
-#### Install MongoDB
--------- Pranav --------
-
 #### Deploy Smart Contract
 We now want to deploy our smart contract onto this Ganache blockchain that we set up in the previous step. We need to follow these steps for the same:
 
@@ -44,6 +41,11 @@ We now want to deploy our smart contract onto this Ganache blockchain that we se
 
 **Note**: By default Ganache listens on port 7545 of the sytem and it should automtically be found by Truffle. If this is not the case, you might need to uncomment and modify the ***development*** attribute in the truffle-config.js file and set the correct port and host there.
 ### How to run complete application?
+
+
+#### Install MongoDB
+-------- Pranav --------
+
 
 #### Other project related resources:
 Project Board:  https://github.com/Best-Energy/best-energy/projects/1
