@@ -1,5 +1,6 @@
 ## Best Energy
 #### BlockChain Based Energy Trading Platform
+Best Energy is a peer-to-peer energy trading platform which can be used to trade energy in a decentralized, secure, efficient and transparent manner over the Ethereum blockchain.
 Since the project comprises of different repositories for each component, this is the main Readme file for the project which connects each of these components and demonstrates the use of the application as a whole. 
 
 We have 4 main components/repositories for this project:
