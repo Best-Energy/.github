@@ -42,6 +42,17 @@ We now want to deploy our smart contract onto this Ganache blockchain that we se
 
 
 **Note**: By default Ganache listens on port 7545 of the sytem and it should automtically be found by Truffle. If this is not the case, you might need to uncomment and modify the ***development*** attribute in the truffle-config.js file and set the correct port and host there.
+
+#### Start the Oracle Services
+Now that the contract is deployed we need to start the oracle services, which will listen to contract events and act accordingly.  
+Steps:
+- In the folder "shared" you need to change the file "config.json". 
+  - The field "CONTRACT_ADDRESS" should point to the address of the P2PMarket contract you just deployed.
+  - "PRIVATE_KEY" should be the private key with which you deployed the contract.
+  - "WEB3_PROVIDER" is the url of Ganache as a websocket (ie ws://localhost:7545)
+- Run npm install on the top level directory of oracles-services to install the packages in all subprojects.
+- Run npm start to start all oracle services concurrently.
+
 ### How to run complete application?
 
 ## Part-2: Application
